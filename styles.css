@@ -49,7 +49,7 @@ ul{
 }
 
 .main-section{
-    background-image: url(./assets/bg.png);
+    background-image: url(assets/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,4 +114,38 @@ nav .button{
 
 #icon, hr{
     display: none;
+}
+/* banner style  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left-banner{
+    max-width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.banner-tittle{
+    max-width: 90%;
+    font-weight: 700;
+    font-size: 56px;
+    color: var(--black);
+}
+.banner-tittle span:first-child{
+    color: var(--orange);
+}
+
+.banner-tittle span:last-child{
+    color: var(--blue);
+}
+
+.banner-disc{
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--black);
 }
